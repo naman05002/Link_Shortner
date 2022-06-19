@@ -17,7 +17,7 @@ app.use('/api/url',require('./routes/url'));
 app.listen(PORT, function (){
     console.log(`Server running on port ${PORT}`);
 })
-document.createElement(tagName)
+// document.createElement(tagName)
 // async function postData(url='',data = {}){
 //     const reponse = await fetch(url,{
 //         method: 'POST',
