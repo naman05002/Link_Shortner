@@ -1,4 +1,4 @@
 {
     "mongoURI" : "mongodb+srv://naman:naman05002@link-shortner.htv44.mongodb.net/?retryWrites=true&w=majority",
-    "baseUrl"  : "http://localhost:5000"
+    "baseUrl"  : "https://l-sh.herokuapp.com/"
 }
