@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.amazon.in/Samsung-Storage-Adapter-Purchased-Separately/dp/B09XJ5LD6L/ref=sr_1_13?crid=120J4UL48DZCU&keywords=samsung+mobile&qid=1654959508&s=electronics&sprefix=sam%2Celectronics%2C299&sr=1-13"
+}
