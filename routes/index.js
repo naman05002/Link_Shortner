@@ -1,12 +1,18 @@
 const express = require('express');
 const router = express.Router();
 const Url = require('../models/Url');
-
+const path=require('path');
 //@route GET /:code
 //@desc Redirect to long url
+
 router.get('/', (req,res)=>{
-    res.sendFile("./index.html")
-})
+    // var options ={
+    //     root: path.join(__dirname)
+    // };
+    // res.send('got response')
+    var fileName='/index.html';
+    res.sendFile(path.join(__dirname+fileName));
+});
 router.get('/:code',async (req,res) => {
     try{
         const url = await Url.findOne({
