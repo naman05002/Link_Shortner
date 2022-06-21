@@ -4,7 +4,9 @@ const Url = require('../models/Url');
 
 //@route GET /:code
 //@desc Redirect to long url
-
+router.get('/', (req,res)=>{
+    res.sendFile("./index.html")
+})
 router.get('/:code',async (req,res) => {
     try{
         const url = await Url.findOne({
